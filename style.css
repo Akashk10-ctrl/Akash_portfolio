@@ -215,3 +215,34 @@ footer {
     justify-content: center;
   }
 }
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.projects-table th,
+.projects-table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+.projects-table th {
+  background-color: #111;
+  color: #aaaaff;
+}
+
+.projects-table a {
+  color: #aaaaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects-table a:hover {
+  text-decoration: underline;
+}
+.projects-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
