@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL / RESET....
+   GLOBAL / RESET
 ========================= */
 * {
   box-sizing: border-box;
@@ -8,7 +8,6 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #d45612;
   color: #f0f0f0;
   background-image: url("starry_sun.jpg");
   background-size: cover;
@@ -70,7 +69,7 @@ body {
 }
 
 /* =========================
-   BIO SECTION
+   BIO
 ========================= */
 .bio {
   display: flex;
@@ -98,7 +97,31 @@ body {
 }
 
 /* =========================
-   PROJECT LAYOUT
+   QUICK LINKS
+========================= */
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.quick-links a {
+  padding: 0.7em 1.5em;
+  background-color: #5555aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.quick-links a:hover {
+  background-color: #7777dd;
+}
+
+/* =========================
+   PROJECTS
 ========================= */
 .project {
   display: flex;
@@ -177,7 +200,6 @@ footer {
 
   .project iframe {
     width: 100%;
-    min-width: 0;
     height: 350px;
   }
 }
