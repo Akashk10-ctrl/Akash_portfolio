@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  color: #eeeaea;
+  color: #ffffff;
   background-image: url("starry_sun.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -19,7 +19,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #a41818;
+  background-color: #5b5151;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,7 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: rgba(52, 47, 45, 0.95);
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
